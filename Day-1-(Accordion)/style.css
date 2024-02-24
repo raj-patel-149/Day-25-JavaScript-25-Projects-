@@ -72,3 +72,8 @@ h1 {
 .accordion_Head.active + .accordion_content {
   display: block;
 }
+
+.number {
+  margin-left: 5px;
+  margin-right: 9px;
+}

@@ -17,6 +17,25 @@ const data = [
     answer:
       "Errors in JavaScript can be handled using try...catch blocks to catch exceptions and handle them gracefully.",
   },
+  {
+    id: "4",
+    question: "How do you declare a variable in JavaScript?",
+    answer:
+      "Use the var, let, or const keyword followed by the variable name to declare a variable.",
+  },
+  {
+    id: "5",
+    question: " What is the purpose of the parseInt() function in JavaScript?",
+    answer:
+      "parseInt() is used to convert a string to an integer.",
+  },
+  {
+    id: "6",
+    question: " How can you loop through an array in JavaScript?",
+    answer:
+      "Use a for loop or array methods like forEach() to iterate through elements in an array.",
+  },
+  
 ];
 
 const accordionWrapper = document.querySelector(".accordion");
@@ -27,6 +46,7 @@ function createAccordion() {
       (item) => `
     <div class = "accordian_item">
     <div class = "accordion_Head">
+    <h3 class = "number">(${item.id})</h3>
     <h3>${item.question}</h3>
     <i class="fa-solid fa-arrow-up"></i>
     </div>
