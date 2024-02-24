@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.rcg-container {
+  display: flex;
+  min-height: 95vh;
+  gap: 10px;
+}
+
+.hex-color-container,
+.rgb-color-container {
+  flex: 1;
+}
+.hexButton {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(234, 234, 149);
+  color: #496050;
+  border: 2px solid black;
+  border-radius: 20%;
+}
+.rgbButton {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(234, 234, 149);
+  border: 2px solid black;
+  color: rgb(128, 189, 138);
+  border-radius: 20%;
+}
+
+label {
+  width: 7vh;
+}
+
+.colorPicker {
+  display: flex;
+  gap: 10px;
+}
+
+.rgb-color-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(128, 189, 138);
+}
+
+.hex-color-container {
+  background-color: #496050;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hex-color-text,
+.rgb-color-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
