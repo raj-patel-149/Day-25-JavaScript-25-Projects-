@@ -11,7 +11,7 @@
         <li>Project 1: [Accordion]</li>
         <li>Project 2: [Random Color Generator]</li>
         
-        <!-- Add more projects as needed -->
+        
   </ul>
 <br/>
   <h2>Contributing</h2>
